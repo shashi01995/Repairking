@@ -1,0 +1,317 @@
+
+
+hr {
+    display: block;
+    margin-top: 1em !important;
+    margin-bottom: 0.5em !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    border-style: solid !important;
+    border-width: 2px !important;
+    width: 15% !important;
+    color: #00488c !important;
+    opacity: 1 !important;
+  }
+.top-fixed{
+    /* background-image: url("/tvrepair/img/banner.jpg");  */
+    position: relative;
+    padding: 0px !important;
+    min-height: 100%;
+    
+}
+
+.banner-text{
+    position: absolute;
+    
+    line-height: 2px !important;
+    bottom: 250px;
+    left: 100px;
+}
+.btn{
+    border-radius: 10px !important;
+
+}
+.btn:hover{
+  background-color:blue !important;
+}
+.button{
+  background-color: #0297FE !important;
+  border: 2px solid white !important;
+}
+.button:hover{
+  background-color: black !important;
+}
+.card{
+    height: 100%;
+    text-align: center;
+}
+.card img{
+    padding: 10px;
+    border-radius: 25px;
+}
+.bi{
+    height: 90px;
+    /* justify-content: center; */
+    color: rgb(47, 47, 114);
+    margin-bottom: 30px;
+}
+.icon-text{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.gray{
+    background-color: #F8F8FB;    
+}
+.brand img{
+    height: 50px !important;
+    width: 100% !important;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+.galary img{
+    border-radius: 20px;
+    /* height: 50%; */
+}
+.galary{
+    padding-bottom: 0px !important;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  width: 40px !important;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #0297FE !important;
+  opacity: 1;
+}
+.footer{
+    background-color: #212529;
+  }
+  .about img{
+     border-radius: 20px;
+  }
+  .contacticon{
+    background-color: #0297FE; 
+    border-radius: 8px; 
+    text-align: left;
+    align-items: flex-start;
+    height: 60px;
+    /* background-color: white; */
+    color: white;
+  }
+  .bi {
+    height: 50px;
+    /* justify-content: center; */
+    color: rgb(47, 47, 114);
+    margin-bottom: 0px;
+  }
+  .bi-alarm-fill {
+    /* background-color: white; */
+    color: white;
+    height: 50px;
+    margin-top: 0px !important;
+}
+  .svgicon{
+      padding: 0px;
+      /* padding-top: 10px; */
+      margin-top: 0px;
+      /* color: white; */
+  }
+  .contact-div-body{
+      text-align: left;
+      flex: 1 1 auto;
+    padding: 0rem 1rem !important;
+  }
+  .bi-alarm-fill{
+      /* background-color: white; */
+      color: white;
+      height: 50px;
+      margin-top: 30px;
+  }
+  .contact{
+    background-color: #0297FE; 
+    border-radius:8px;
+    height: 100%;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    /* border: 4px solid #c432b9; */
+  }
+  .text-white{
+    padding-bottom: 0px;
+  }
+  .nav-link{
+      color: white !important;
+      font-size: 1.2rem;
+  }
+  .nav-item :hover{
+    color:#0297FE !important;
+    /* font-size: 1.2rem; */
+}
+.viewallbtn{
+  /* background-image: url("/tvrepair/img/aboutus.jpg"); */
+  background-color: #0297FE !important;
+  color: white;
+  border: none;
+  
+  /* height: 50%; */
+}
+.viewallbtn img{
+  height:150px;
+}
+.service-container{
+  padding-left: 125px !important;
+  padding-right: 125px !important;
+}
+.service-container img{
+  border-radius: 15px;;
+}
+.aboutus img{
+border-radius: 50%;
+height: 20%;
+width: 20%;
+}
+.footer a{
+  text-decoration: none;
+  color: white;
+}
+.contact-img{
+ 
+  padding: 0px !important;
+}
+.contact-img img{
+  height: 100vh;
+  width: 100%;
+}
+  /* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .arrowIcon {
+      top: 90%;
+      left: 50%;
+      right: 50%;
+      transform: scale(1.2) rotate(90deg);
+    }
+    .contacticon{
+      height: 50%;
+      width: 30%;
+      margin: 1px0 auto;
+      padding: 10px;
+      
+      
+    }
+    .svgicon{
+      height: 80px;
+      width: 80px;
+    }
+    .contact-div-body {
+      text-align: center;
+      padding: 1rem 1rem !important;
+    }
+    .btn{
+      margin-bottom: 15px;
+      margin-top: 15px;
+    }
+    .contact input{
+      margin-bottom: 15px;
+      /* margin-top: 15px; */
+    }
+    .container-fluid{
+      margin-top: 20px;;
+    }
+    .top-fixed{
+        height: auto;
+        width: 100vw;
+    }
+    .service-container{
+      padding-left: 10px !important;
+      padding-right: 10px !important;
+    }
+    .button{
+      
+      width: 100%;
+    }
+    .banner-text{
+      position: absolute;
+      margin-top: 0px !important;
+      padding-top: 0px !important;
+      bottom: 0px;
+      left: 0px;
+    }
+    .top-fixed{
+      margin-top: 0px !important;
+    }
+    .reverse{
+      display: flex;
+      flex-flow: column-reverse;
+    }
+    .contact-img img{
+      height: 250px;
+      width: 100%;
+      
+    }
+    .contact-img{
+ 
+      margin-top: 0px !important;
+    }
+  }
+@media screen and (min-device-width: 650px) and (max-device-width: 1150px) { 
+    /* STYLES HERE */
+    .banner-text{
+      position: absolute;
+      margin-top: 0px !important;
+      padding-top: 0px !important;
+      bottom: 150px;
+      left: 0px;
+    }
+    .contact-img img{
+      height: 250px;
+      width: 100%;
+      
+    }
+    .contact-img{
+ 
+      margin-top: 0px !important;
+    }
+}
+@media screen and (min-device-width: 649px) and (max-device-width: 799px){
+  .media-col{
+  flex: 0 0 auto;
+    width: 50% !important;
+  }
+  .contact-div-body {
+    text-align: left;
+    padding: 0px 1rem !important;
+  }
+  .svgicon {
+    padding: 0px;
+    margin-top: 30px;
+  }
+  .contact input {
+    margin-bottom: 0px !important;
+    /* margin-top: 15px; */
+  }
+  .form-media{
+    flex: 0 0 auto;
+    width: 100% !important;
+  }
+  .contact{
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+  .text-white{
+    padding-bottom: 0px;
+  }
+  .svgicon {
+    padding: 0px;
+    margin: 5px;
+  }
+  .contacticon{
+    height: 75px;
+  }
+  .contact-img img{
+    height: 250px;
+    width: 100%;
+  }
+  .button{
+    width: 100%;
+  }
+}
